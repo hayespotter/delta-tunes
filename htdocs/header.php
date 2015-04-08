@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>Delta Tunes</title>
 
-
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <script src="js/jquery-1.10.2.min.js"></script>
 <script src="js/css_browser_selector.js"></script>
 

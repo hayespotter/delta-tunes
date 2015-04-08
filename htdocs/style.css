@@ -6138,7 +6138,96 @@ td.visible-print {
   Start Custom Theme CSS Below
 ----------------------------------------------- */
 body {
-  background: #333;
-  color: #fefefe;
+  background: #23242d;
+  color: #c0c5ce;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}
+#main {
+  margin-top: 5%;
+}
+.light {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+}
+.slanty {
+  font-style: italic;
+}
+.heavy {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+}
+h1,
+h2 {
+  color: #f2352f;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+}
+a,
+a:visited {
+  color: #f2352f;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+a:hover,
+a:visited:hover {
+  color: #ba5f68;
+  text-decoration: none;
+}
+.hr {
+  width: 100%;
+  display: block;
+  margin: 20px auto;
+  height: 1px;
+  background: #2F3039;
+  text-align: center;
+}
+p {
+  font-size: 18px;
+  line-height: 25px;
+}
+p strong {
+  color: #f2352f;
+}
+.elevator {
+  width: 100%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  margin: 20px 0;
+  display: block;
+}
+.cta {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 15px 25px;
+  display: inline-block;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  color: #f2352f;
+}
+.cta.stretch {
+  width: 100%;
+}
+.cta .fa {
+  font-size: 25px;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+.main {
+  margin-top: 10%;
+  padding: 2em 0;
+}
+.main h1 {
+  margin: 0;
+  font-size: 3.3em;
+}
+.main span {
+  font-size: 1.3em;
+}
+.main .elevator {
+  margin: 0;
+  padding: 0;
 }
 /*# sourceMappingURL=style.css.map */
